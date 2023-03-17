@@ -1,0 +1,23 @@
+{
+  "name": "ikea-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manojbachhal/Ikea-BackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manojbachhal/Ikea-BackEnd/issues"
+  },
+  "homepage": "https://github.com/Manojbachhal/Ikea-BackEnd#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
