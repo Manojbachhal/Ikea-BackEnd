@@ -7,8 +7,10 @@ server.get("/", async (req, res) => {
   res.send("welcome");
 });
 
-connection().then(
-  server.listen(3000, () => {
-    console.log("Connected");
-  })
-);
+server.listen(process.env.PORT, async (req, res) => {
+  try {
+    await connection;
+  } catch (error) {
+    console.log("error");
+  }
+});
