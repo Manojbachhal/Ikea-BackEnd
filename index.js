@@ -6,5 +6,5 @@ server.get("/", async (req, res) => {
 });
 
 server.listen(3000, () => {
-  console.log(Connected);
+  console.log("Connected");
 });
