@@ -10,6 +10,7 @@ server.get("/", async (req, res) => {
 server.listen(process.env.PORT, async (req, res) => {
   try {
     await connection;
+    console.log("first");
   } catch (error) {
     console.log("error");
   }
